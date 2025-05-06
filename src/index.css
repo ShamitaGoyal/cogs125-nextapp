@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('/fonts/HelveticaNeue-Light.woff2') format('woff2'),
+       url('/fonts/HelveticaNeue-Light.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('/fonts/HelveticaNeue-Thin.woff2') format('woff2'),
+       url('/fonts/HelveticaNeue-Thin.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('/fonts/HelveticaNeue-Roman.woff2') format('woff2'),
+       url('/fonts/HelveticaNeue-Roman.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('/fonts/HelveticaNeue-Medium.woff2') format('woff2'),
+       url('/fonts/HelveticaNeue-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+
+
+* {
+  font-family: "Helvetica Neue";
+  margin: 0;
+  padding: 0;
+}
+
+
+html, body{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+
+
+#root{
+  background-color: black;
+}
+
+
+body {
+  opacity: 0;
+  animation: fadeIn 1.5s forwards;
+}
+@keyframes fadeIn {
+  to {
+      opacity: 1;
+  }
+}

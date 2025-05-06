@@ -1,0 +1,20 @@
+.menu-toggle {
+    display: none;
+    margin-top: -0.5rem;
+  }
+
+
+  
+@media (max-width: 580px) {
+    .menu-toggle {
+      display: block;
+    }
+
+    header ul li{
+      display: none;
+    }
+
+
+
+  }
+
