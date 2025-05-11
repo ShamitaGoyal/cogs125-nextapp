@@ -11,7 +11,7 @@ function App() {
   return (
     <>
     <Router>
-      <TopNavbar></TopNavbar>
+      {/* <TopNavbar></TopNavbar> */}
       <HamburgerMenu></HamburgerMenu>
       <Routes>
         <Route path="/" element={<Homepage/>} />
@@ -19,7 +19,7 @@ function App() {
         {/* <Route path="/forfun" element={<Forfun/>} /> */}
         <Route path="/about" element={<About/>} />
       </Routes>
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
     </Router>
 
     </>
